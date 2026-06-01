@@ -1,0 +1,33 @@
+body{
+    background:#121212;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial,sans-serif;
+}
+
+.player{
+    background:#1e1e1e;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    width:350px;
+    box-shadow:0 0 15px cyan;
+}
+
+.controls button{
+    padding:10px 15px;
+    margin:10px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+#progress{
+    width:100%;
+}
+
+.volume{
+    margin-top:15px;
+}
